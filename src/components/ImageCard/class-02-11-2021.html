@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>class 02-11-2021</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 1200px;
+            margin: 0px auto;
+            background: #000;
+        }
+
+        .header {
+            width: 100%;
+            height: 100px;
+            background: #fff;
+        }
+
+        .logo {
+            width: 300px;
+            background: rgb(177, 0, 0);
+            float: left;
+        }
+
+        .logimg {
+            height: 100px;
+            float: left;
+        }
+
+        .navigation {
+            background: #000;
+            height: 100px;
+            color: #fff;
+            width: 800px;
+            float: left;
+        }
+
+        .profile {
+            width: 100px;
+            background: green;
+            height: 100px;
+            float: right;
+        }
+
+        .proImg {
+            width: 70px;
+            margin: 15px;
+            border-radius: 50%;
+        }
+
+        .mainNav {
+            margin: 40px 0 0 40px;
+            padding: 0;
+            list-style: none;
+        }
+
+        .mainNav li {
+            display: inline;
+            margin: 0 5px;
+        }
+
+        .mainNav li a {
+            background: yellow;
+            padding: 10px 20px;
+            color: #000;
+            font-size: 14px;
+            font-family: 'arial';
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+        }
+
+        .mainNav li a:hover {
+            background: red;
+            color: #fff
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img class="logimg" src="https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo.png" alt="logo">
+            </div>
+            <div class="navigation">
+                <ul class="mainNav">
+                    <li>
+                        <a href="#">Home </a>
+                    </li>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Services </a>
+                    </li>
+                    <li>
+                        <a href="#">Products </a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="profile">
+                <img src="https://i0.wp.com/newdoorfiji.com/wp-content/uploads/2018/03/profile-img-1.jpg?ssl=1" alt="profile img" class="proImg">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
